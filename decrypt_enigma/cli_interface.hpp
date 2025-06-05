@@ -59,9 +59,9 @@ namespace cli_interface {
         }
         result[flag] = block_argument; 
         
-        for (auto block : result)
+        /*for (auto block : result)
             if (block.second.empty())
-                result.erase(block.first);
+                result.erase(block.first);*/
         
         return result; 
     }
