@@ -1,0 +1,7 @@
+II pos:D ring:J V pos:Y ring:S I pos:E ring:J 
+II pos:P ring:L IV pos:G ring:H III pos:S ring:Y T-V
+I pos:Q ring:A III pos:H ring:Y IV pos:W ring:C Q-T
+IV pos:U ring:F III pos:T ring:K V pos:D ring:Z A-Z G-R H-K
+I pos:A ring:M II pos:Y ring:A IV pos:H ring:S C-N E-P I-L
+V pos:O ring:E I pos:X ring:R II pos:T ring:L 
+IV pos:U ring:F III pos:T ring:K V pos:D ring:Z A-Z B-M C-W G-R H-K J-O P-U Q-T
