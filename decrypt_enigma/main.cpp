@@ -2,6 +2,8 @@
 
 // g++ main.cpp cli_interface.hpp denigma.hpp denigma_fitness.cpp denigma_force.cpp denigma_key.cpp encrypt_enigma/enigma.hpp encrypt_enigma/enigma_impl.hpp encrypt_enigma/enigma_machine.cpp encrypt_enigma/enigma_rotors.cpp encrypt_enigma/enigma_key.cpp -o decrypt_enigma
 
+// x86_64-w64-mingw32-g++-posix -std=c++20 -static main.cpp cli_interface.hpp denigma.hpp denigma_fitness.cpp denigma_force.cpp denigma_key.cpp encrypt_enigma/enigma.hpp encrypt_enigma/enigma_impl.hpp encrypt_enigma/enigma_machine.cpp encrypt_enigma/enigma_rotors.cpp encrypt_enigma/enigma_key.cpp -o decrypt_enigma.exe
+
 #include"denigma.hpp"
 #include"cli_interface.hpp"
 
