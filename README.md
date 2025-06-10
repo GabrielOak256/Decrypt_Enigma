@@ -30,6 +30,14 @@ Fortunately we can also split off the ring setting into a separate step.
 So we get the "most English-like" Rotor choice and positions. Then the "most English-like" ring-setting (compensating that rotation by doing the opposite to the position). Then the "most English-like" Plugboard settings. 
 
 Feel free to compile and run the code. All instructions should be provided upon use of "-h" as a CLI argument. 
-But, "./decrypt_enigma --ciphertext ciphertexts/4.txt" will run the program with default values on the 4th ciphertext file. 
-And, "./decrypt_enigma --encrypt --ciphertext ciphertexts/4.txt --key IV U F III T K V D Z AZ GR HK" will decrypt that ciphertext using that key. 
+But, 
+"./decrypt_enigma --ciphertext ciphertexts/4.txt" (Linux)
+"decrypt_enigma.exe --ciphertext ciphertexts\4.txt" (Windows)
+will run the program with default values on the 4th ciphertext file. 
+And, 
+"./decrypt_enigma --encrypt --ciphertext ciphertexts/4.txt --key IV U F III T K V D Z AZ GR HK" (Linux)
+"decrypt_enigma.exe --encrypt --ciphertext ciphertexts\4.txt --key IV U F III T K V D Z AZ GR HK" (Windows)
+will decrypt that ciphertext using that key. 
 
+An example of some of the other CLI options: 
+"decrypt_enigma.exe --ciphertext ciphertexts\6.txt --fitness known --known_plaintext ciphertexts\known_plaintext.txt"
